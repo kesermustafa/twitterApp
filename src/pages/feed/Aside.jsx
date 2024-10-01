@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Aside = () => {
+
     return (
         <div className="max-xl:hidden">
             Aside
@@ -8,4 +9,4 @@ const Aside = () => {
     );
 };
 
-export default Aside;
+export default React.memo(Aside);
