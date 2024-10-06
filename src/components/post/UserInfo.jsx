@@ -11,9 +11,9 @@ const UserInfo = ({tweet}) => {
 
     return (
         <div className="user-info flex gap-3 items-center whitespace-nowrap text-gray-500">
-            <p className='text-white'>{tweet.user.name}</p>
-            <p className='text-sm'>@{userNickName}</p>
-            <p className='text-sm'>{date}</p>
+            <p className='text-white max-sm:text-sm'>{tweet.user.name}</p>
+            <p className='text-sm max-sm:text-[12px]'>@{userNickName}</p>
+            <p className='text-sm max-sm:text-[12px]'>{date}</p>
 
             {
                 tweet.isEdited && <p className='text-xs'>

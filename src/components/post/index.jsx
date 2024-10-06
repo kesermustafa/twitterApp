@@ -7,15 +7,16 @@ import Buttons from "./Buttons.jsx";
 const Post = ({tweet}) => {
 
     return (
-        <div className='text-white p-5 border-b border-zinc-500 flex gap-3'>
+        <div className='text-white p-3 md:p-5 border-b border-zinc-500 flex gap-3'>
             <img src={tweet.user.photo}
                  alt=""
-                 className='size-12 rounded-full'
+                 className=' size-8 md:size-12 rounded-full'
             />
 
             <div className={'w-full'}>
 
                 <div className='flex items-center justify-between'>
+
                     <UserInfo tweet={tweet}/>
 
                     <Dropdown tweet={tweet}/>
