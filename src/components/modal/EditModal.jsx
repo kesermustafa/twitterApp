@@ -42,7 +42,7 @@ const EditModal = ({isOpen, close, tweet, setEditOpen}) => {
         //modal kapat
         close()
     }
-
+ 
     return (
         <Modal isOpen={isOpen} close={close}>
             <h1 className='text-2xl text-center text-emerald-500'>Tweet'i duzenle</h1>

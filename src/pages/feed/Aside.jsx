@@ -3,8 +3,8 @@ import React from 'react';
 const Aside = () => {
 
     return (
-        <div className="max-xl:hidden">
-            Aside
+        <div className="max-lg:hidden">
+            <img className='w-[300px]' src="profileImage.webp" alt=""/>
         </div>
     );
 };
